@@ -14,9 +14,9 @@ SECRET_KEY = 'django-insecure--$pqlvehu_xfj50&z%f@djfzuin31nv8-%ft593@=@04%gf2(v
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "jalaleid.pythonanywhere.com",
+    'localhost',
+    'jalaleid.pythonanywhere.com',
 ]
-
 
 # Application definition
 
