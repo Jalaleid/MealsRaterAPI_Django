@@ -13,7 +13,9 @@ SECRET_KEY = 'django-insecure--$pqlvehu_xfj50&z%f@djfzuin31nv8-%ft593@=@04%gf2(v
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "jalaleid.pythonanywhere.com",
+]
 
 
 # Application definition
@@ -43,12 +45,13 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CORS_ALLOWED_ORIGINS = [
-        "https://example.com",
-        "https://sub.example.com",
-        "http://localhost:8080",
-        "http://127.0.0.1:9000"
-    ]
+# CORS_ALLOWED_ORIGINS = [
+    
+#     "https://example.com",
+#     "https://sub.example.com",
+#     "http://localhost:8080",
+#     "http://127.0.0.1:9000"
+# ]
 
 ROOT_URLCONF = 'mealrater.urls'
 
